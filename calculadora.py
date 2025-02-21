@@ -1,17 +1,17 @@
 # criando uma calculadora simples no python
 def somar(a, b):
-    return a + b
+    return a + b #--> função de somar 
 
 def subtrair(a, b):
-    return a - b
+    return a - b #--> função de subtrair
 
 def multiplicar(a, b):
-    return a * b
+    return a * b #--> função de multiplicar
 
 def dividir(a, b):
-    if b == 0:
+    if b == 0: #--> gerar um erro quando (b) for igual a zero(0)
         return "Erro: Divisão por zero!"
-    return a / b
+    return a / b #--> função de dividir
 
 # Função principal
 def main():
@@ -25,8 +25,8 @@ def main():
     escolha = input("Digite o número da operação desejada: ")
 
     if escolha in ["1", "2", "3", "4"]:
-        num1 = int(input("Digite o primeiro número: "))
-        num2 = int(input("Digite o segundo número: "))
+        num1 = int(input("Digite o primeiro número: ")) #--> funão de digitar primeiro número
+        num2 = int(input("Digite o segundo número: ")) #--> função de digitar segundo número
 
         operacoes = {
             "1": ("Soma", somar),
