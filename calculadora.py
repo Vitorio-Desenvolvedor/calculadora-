@@ -1,4 +1,4 @@
-# criando uma calculadora simples no python
+#--> calculadora simples em python
 def somar(a, b):
     return a + b #--> função de somar 
 
@@ -15,17 +15,17 @@ def dividir(a, b):
 
 # Função principal
 def main():
-    print("=== Calculadora Simples ===")
+    print("=== Calculadora Simples ===") #--> ondem de operação
     print("Escolha uma operação:")
     print("1 - Somar")
     print("2 - Subtrair")
     print("3 - Multiplicar")
     print("4 - Dividir")
 
-    escolha = input("Digite o número da operação desejada: ")
+    escolha = input("Digite o número da operação desejada: ") #--> escolher qual operação vai ser
 
     if escolha in ["1", "2", "3", "4"]:
-        num1 = int(input("Digite o primeiro número: ")) #--> funão de digitar primeiro número
+        num1 = int(input("Digite o primeiro número: ")) #--> função de digitar primeiro número
         num2 = int(input("Digite o segundo número: ")) #--> função de digitar segundo número
 
         operacoes = {
